@@ -34,6 +34,20 @@
     animation: cloud-animation 9s infinite linear;
 
 }
+.Cloud2 {
+    position: absolute;
+    width: 350px;
+    animation: cloud2-animation 15s infinite linear;
+
+}
+@keyframes cloud2-animation {
+    from {
+        right: -250px;
+    }
+    to{
+        right: 100%;
+    }
+}
 @keyframes cloud-animation {
     from {
         right: -250px;
